@@ -40,7 +40,7 @@ pm2 start server.js
 3. WebサイトがWindows上で開かれるはずです     
   
 ## 7. 検証（ファイルをPCへ共有）
-1.プロセスを開始
+1. プロセスを開始
 ```bash
 pm2 start server4UpFiles.js
 ```
