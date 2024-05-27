@@ -1,6 +1,7 @@
 # iOS to Windows LAN Share
 
-iPhoneまたはiPadからショートカットで同一LAN内にあるWindows PCにWebサイトやファイルを共有するためのスクリプトです
+iPhoneまたはiPadからショートカットで同一LAN内にあるWindows PCにWebサイトやファイルを共有するためのスクリプトです  
+設定がちょっと面倒だけど割と便利
 
 ## 1. PCのIPアドレスの固定
 1. コマンドプロンプトを起動  
