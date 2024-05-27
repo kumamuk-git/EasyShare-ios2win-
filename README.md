@@ -8,13 +8,13 @@ iPhoneまたはiPadからショートカットで同一LAN内にあるWindows PC
 ```bash
 ipconfig -all
 ```
-3. [こことか](https://www.buffalo.jp/support/faq/detail/15257.html)を参考にIPアドレスを手動で設定
-2で確認したものを入力してください。
+3. [こことか](https://www.buffalo.jp/support/faq/detail/15257.html)を参考にIPアドレスを手動で設定  2で確認したものを入力してください。
 
 ## 2. Node.jsのインストール
 1. [こことか](https://medium-company.com/node-js%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%89%8B%E9%A0%86/)を参考にNode.jsをインストール  
   
 ## 3. リポジトリのクローン＆モジュールのインストール
+1. 
 ```bash
 git clone https://github.com/masaki-krrn/EasyShare-ios2win-.git  
 npm install express open
@@ -26,6 +26,7 @@ npm install express open
 3. 「(ipアドレス)」のIPアドレスの部分を1.3で設定したものに変更
   
 ## 5. Node.jsのプロセスマネージャ（pm2）のインストール
+1. 
 ```bash
 npm install -g pm2  
 npm install -g pm2-windows-startup
@@ -47,6 +48,7 @@ pm2 start server4UpFiles.js
 3. `uploads`内に共有した画像ファイルが保存されています  
   
 ## 8. Windows起動と同時にサーバを起動する設定
+1. 
 ```bash
 pm2 save  
 pm2-startup install
