@@ -35,7 +35,7 @@ class Handler(FileSystemEventHandler):
         os.remove(file_path)
 
 if __name__ == "__main__":
-    path_to_watch = "C:/Users/maaso/Documents/JavaScript/uploads"  # 監視するディレクトリを指定
+    path_to_watch = "./uploads"  # 監視するディレクトリを指定
 
     event_handler = Handler()
     observer = Observer()
