@@ -11,7 +11,7 @@ iPhoneまたはiPadからショートカットで同一LAN内にあるWindows PC
 2.1. [こことか](https://medium-company.com/node-js%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%89%8B%E9%A0%86/)を参考にNode.jsをインストールします。
 
 ## 3. リポジトリのクローン＆モジュールのインストール
-3.1. お好きな場所にこのリポジトリをクローンします。
+3.1. 
 3.2. クローンしたディレクトリでコマンドプロンプトを起動します。  
 3.3. `npm install express open`を入力し、エンター。モジュールがインストールされます。`node_modules`というフォルダができていればOKです。
 
@@ -22,7 +22,7 @@ iPhoneまたはiPadからショートカットで同一LAN内にあるWindows PC
 
 ## 5. Node.jsのプロセスマネージャ（pm2）のインストール
 5.1. コマンドプロンプトを起動。  
-5.2. `npm install -g pm2`でインストール。  
+5.2. ```npm install -g pm2```でインストール。  
 5.3. `npm install -g pm2-windows-startup`も実行。
 
 ## 6. 検証（PCで開く）
