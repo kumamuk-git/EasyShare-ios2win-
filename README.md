@@ -3,9 +3,11 @@
 iPhoneまたはiPadからショートカットで同一LAN内にあるWindows PCにWebサイトやファイルを共有するためのスクリプトです。
 
 ## 1. PCのIPアドレスの固定
-1.1. Windows左下の検索窓に「cmd」と入力してコマンドプロンプトを開きます。  
-1.2. 「ipconfig -all」と入力し、エンター。IPアドレス関連の情報が出てきます。  
-1.3. [こことか](https://www.buffalo.jp/support/faq/detail/15257.html)を参考にIPアドレスを手動で設定します。1.2で確認したものを入力してください。
+1.1. コマンドプロンプトを起動。
+1.2. `ipconfig -all`
+      IPアドレス関連の情報が出てきます。  
+1.3. [こことか](https://www.buffalo.jp/support/faq/detail/15257.html)を参考にIPアドレスを手動で設定します。
+      1.2で確認したものを入力してください。
 
 ## 2. Node.jsのインストール
 2.1. [こことか](https://medium-company.com/node-js%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%89%8B%E9%A0%86/)を参考にNode.jsをインストールします。
@@ -16,7 +18,9 @@ iPhoneまたはiPadからショートカットで同一LAN内にあるWindows PC
 3.3. `npm install express open`
 
 ## 4. iPhoneショートカットの設定
-4.0. [ショートカットリンク(PCで開く)](https://www.icloud.com/shortcuts/71b8ca2c4a31428cb14c0a40dd08ce51) [ショートカットリンク(ファイルをPCへ共有)](https://www.icloud.com/shortcuts/b73b3bcd178a4710969978924372e05c)を開きます。  
+4.0.[ショートカットリンク(PCで開く)](https://www.icloud.com/shortcuts/71b8ca2c4a31428cb14c0a40dd08ce51) 
+    [ショートカットリンク(ファイルをPCへ共有)](https://www.icloud.com/shortcuts/b73b3bcd178a4710969978924372e05c)
+    からショートカットを入手。
 4.1. ショートカットアプリを開き、共有したショートカットの編集画面へ。  
 4.2. 「(ipアドレス)」のIPアドレスの部分を1.3で設定したものに変更します。
 
