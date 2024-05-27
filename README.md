@@ -5,7 +5,9 @@ iPhoneまたはiPadからショートカットで同一LAN内にあるWindows PC
 ## 1. PCのIPアドレスの固定
 1.1. コマンドプロンプトを起動  
 1.2. IPアドレスの確認  
-      `ipconfig -all`  
+```bash
+ipconfig -all
+```
 1.3. [こことか](https://www.buffalo.jp/support/faq/detail/15257.html)を参考にIPアドレスを手動で設定    
       1.2で確認したものを入力してください。
 
@@ -13,11 +15,10 @@ iPhoneまたはiPadからショートカットで同一LAN内にあるWindows PC
 2.1. [こことか](https://medium-company.com/node-js%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%89%8B%E9%A0%86/)を参考にNode.jsをインストール  
   
 ## 3. リポジトリのクローン＆モジュールのインストール
-3.1. 
-      `git clone`  
-3.2. クローンしたディレクトリでコマンドプロンプトを起動   
-3.3. 
-      `npm install express open`
+```bash
+git clone https://github.com/masaki-krrn/EasyShare-ios2win-.git  
+npm install express open
+```
   
 ## 4. iPhoneショートカットの設定
 4.0.[PCで開く](https://www.icloud.com/shortcuts/71b8ca2c4a31428cb14c0a40dd08ce51) 及び[ファイルをPCへ共有](https://www.icloud.com/shortcuts/b73b3bcd178a4710969978924372e05c)からショートカットを入手  
