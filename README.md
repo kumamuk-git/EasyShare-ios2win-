@@ -17,7 +17,7 @@ ipconfig -all
 1. 以下を実行
 ```bash
 git clone https://github.com/masaki-krrn/EasyShare-ios2win-.git  
-npm install express open
+npm install
 ```
   
 ## 4. iPhoneショートカットの設定
