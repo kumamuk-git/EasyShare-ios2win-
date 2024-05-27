@@ -18,9 +18,7 @@ iPhoneまたはiPadからショートカットで同一LAN内にあるWindows PC
 3.3. `npm install express open`
   
 ## 4. iPhoneショートカットの設定
-4.0.[ショートカットリンク(PCで開く)](https://www.icloud.com/shortcuts/71b8ca2c4a31428cb14c0a40dd08ce51)   
-    [ショートカットリンク(ファイルをPCへ共有)](https://www.icloud.com/shortcuts/b73b3bcd178a4710969978924372e05c)  
-    からショートカットを入手。  
+      4.0.[PCで開く](https://www.icloud.com/shortcuts/71b8ca2c4a31428cb14c0a40dd08ce51) 及び[ファイルをPCへ共有](https://www.icloud.com/shortcuts/b73b3bcd178a4710969978924372e05c)からショートカットを入手。  
 4.1. ショートカットアプリを開き、共有したショートカットの編集画面へ。    
 4.2. 「(ipアドレス)」のIPアドレスの部分を1.3で設定したものに変更します。
   
